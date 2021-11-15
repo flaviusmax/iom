@@ -1,8 +1,8 @@
 <?php
 
 $host = "localhost";    /* Host name */
-$user = "flavi";         /* User */
-$password = "zzxxzz";         /* Password */
+$user = "";         /* User */
+$password = "";         /* Password */
 $dbname = "iomundo";   /* Database name */
 
 // Create connection
