@@ -16,13 +16,13 @@ $target = $target . basename( $_FILES['photo']['name']);
 
 
 //ne conectam la DB
-//$con = mysql_connect("localhost", "flavi", "zzxxzz") or die(mysql_error()) ;
+//$con = mysql_connect("localhost", "flavi", "pass") or die(mysql_error()) ;
 //$db = mysql_select_db("iomundo") or die(mysql_error()) ; 
 
 
  $dbhost = "localhost";
  $dbuser = "flavi";
- $dbpass = "zzxxzz";
+ $dbpass = "pass";
  $db = "iomundo";
  
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $db)  or die("Connect failed: %s\n". $conn -> error);
